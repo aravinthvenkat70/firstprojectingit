@@ -1,0 +1,61 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "filling the form",
+        "description": "",
+        "id": "validating-demo-qa-forms;filling-the-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user is on demoqapage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "filling the form with valid details",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "first name",
+                  "venkat"
+                ]
+              },
+              {
+                "cells": [
+                  "lastname",
+                  "aravinth"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "aravinth@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "validating Demo QA forms",
+    "description": "",
+    "id": "validating-demo-qa-forms",
+    "keyword": "Feature",
+    "uri": "C:/Users/lenovo/eclipse-workspace/sample1/src/test/resources/testdata.Feature",
+    "tags": []
+  }
+]
