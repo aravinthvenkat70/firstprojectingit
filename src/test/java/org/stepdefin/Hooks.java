@@ -34,7 +34,9 @@ public void after() throws IOException {
 	TakesScreenshot ts =(TakesScreenshot)driver;
 	File screenshotAs = ts.getScreenshotAs(OutputType.FILE);
 	FileUtils.copyFile(screenshotAs, new File("C:\\Users\\lenovo\\Desktop\\summa.png"));
-	
+
+	System.out.println("print");
 }
+
 
 }
